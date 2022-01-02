@@ -1,7 +1,5 @@
 # depslib dependency file v1.0
-1641061895 source:h:\final semester\cgm\cgm lab\glutproject\3d cube rotation\main.cpp
-	<iostream>
-	<bits/stdc++.h>
+1641137078 source:h:\final semester\cgm\cgm lab\glutproject\3d cube rotation\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
