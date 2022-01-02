@@ -1,32 +1,30 @@
 # 3D-Cube-Rotation-Using-Glut
-3D Cube Rotation Using Glut
 
 # Project Description
-This is an important component of your project that many new developers often overlook.
+Through this project I would like to rotate a multi colored Cube in 3 dimension. The output of the project will be the projection of 3D Cube Rotation
 
-Your description is an extremely important aspect of your project. A well-crafted description allows you to show off your work to other developers as well as potential employers.
+- First we draw multiple circles,
+- Then Depth is cleared and Roation Angle applied,
+- Finally Because of the Rotation the 3D Cube Shows up
 
-The quality of a README description often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase:
+# System Usuages
 
-- What your application does,
-- Why you used the technologies you used,
-- Some of the challenges you faced and features you hope to implement in the future.
+- Code Blocks
+- OpenGL Primitives
 
-# Table of Contents (Optional)
-If your README is very long, you might want to add a table of contents to make it easy for users to navigate to different sections easily. It will make it easier for readers to move around the project with ease.
+# System Properties
+
+- Multiple Squares
+- Rotation
 
 # How to Install and Run the Project
-If you are working on a project that a user needs to install or run locally in a machine like a "POS", you should include the steps required to install your project and also the required dependencies if any.
 
-Provide a step-by-step description of how to get the development environment set and running.
-
-# How to Use the Project
-Provide instructions and examples so users/contributors can use the project. This will make it easy for them in case they encounter a problem – they will always have a place to reference what is expected.
+1. Download & Install GLUT
+2. Download main.cpp file
+3. Run on Codeblocks
 
 # Output
 
 ![](Output.png)
 
-You can also make use of visual aids by including materials like screenshots to show examples of the running project and also the structure and design principles used in your project.
-
-Also if your project will require authentication like passwords or usernames, this is a good section to include the credentials.
+# Video Explanation
