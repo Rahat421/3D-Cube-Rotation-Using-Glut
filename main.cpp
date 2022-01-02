@@ -70,22 +70,22 @@ void display()
 void reshape(int w, int h)
 {
     //viewport
-    glViewport(0,0,(GLsizei)w,(GLsizei)h);
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    gluPerspective(60,1,2.0,50.0);
-    glMatrixMode(GL_MODELVIEW);
+    glViewport(0,0,(GLsizei)w,(GLsizei)h); //Viewport is specified as whole screen
+    glMatrixMode(GL_PROJECTION); // Switched to Projection Matrix and This function switches matrix mode
+    glLoadIdentity(); // Resets the parameters of the Projection matrix
+    gluPerspective(60,1,2.0,50.0); // Spcifies new projection
+    glMatrixMode(GL_MODELVIEW); // Switch Back to modelview matrix
 
 }
 
 void timer(int)
 {
-    glutPostRedisplay();
-    glutTimerFunc(1000/60,timer,0);
-
-    angle-=0.8; // control the speed of rotation
+    glutPostRedisplay(); // OpenGL will call the display function
+    glutTimerFunc(1000/60,timer,0); // Every 1/60th of second we need to call the function. Peridically it'll call itself
+/*
+    angle+=0.8; // control the speed of rotation
     if(angle>360.0)
-        angle=angle-360.0; //For handling overflow
+        angle=angle-360.0; *///For handling overflow
 }
 
 int main(int argc, char**argv)
@@ -98,8 +98,8 @@ int main(int argc, char**argv)
     glutCreateWindow("3D Cube Rotation"); // Creates Window Named 3D Cube Rotation
 
     glutDisplayFunc(display); // Visualizes anything drawn on the display function. Callback Function
-    glutReshapeFunc(reshape);
-    glutTimerFunc(0,timer,0);
+    glutReshapeFunc(reshape); // Viewport Callback function. Whenever Window is reshaped this function is called
+    glutTimerFunc(0,timer,0); //
     init();
     glutMainLoop(); // Keeps the program running
 
