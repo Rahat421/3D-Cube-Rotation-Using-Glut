@@ -3,7 +3,7 @@
 # Project Description
 Through this project I would like to rotate a multi colored Cube in 3 dimension. The output of the project will be the projection of 3D Cube Rotation
 
-- First we draw multiple circles,
+- First we draw multiple Squares,
 - Then Depth is cleared and Roation Angle applied,
 - Finally Because of the Rotation the 3D Cube Shows up
 
