@@ -23,6 +23,10 @@ Provide a step-by-step description of how to get the development environment set
 # How to Use the Project
 Provide instructions and examples so users/contributors can use the project. This will make it easy for them in case they encounter a problem – they will always have a place to reference what is expected.
 
+# Output
+
+![]()
+
 You can also make use of visual aids by including materials like screenshots to show examples of the running project and also the structure and design principles used in your project.
 
 Also if your project will require authentication like passwords or usernames, this is a good section to include the credentials.
