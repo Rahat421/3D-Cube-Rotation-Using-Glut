@@ -82,10 +82,10 @@ void timer(int)
 {
     glutPostRedisplay(); // OpenGL will call the display function
     glutTimerFunc(1000/60,timer,0); // Every 1/60th of second we need to call the function. Peridically it'll call itself
-/*
+
     angle+=0.8; // control the speed of rotation
     if(angle>360.0)
-        angle=angle-360.0; *///For handling overflow
+        angle=angle-360.0; //For handling overflow
 }
 
 int main(int argc, char**argv)
